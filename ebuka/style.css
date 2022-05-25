@@ -1,0 +1,220 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border;
+}
+.about_image {
+  background-image: url(image/destop.jpg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+.red {
+  background-color: rgb(180, 73, 73);
+  border: hidden;
+  position: relative;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+.login {
+  display: grid;
+  grid-gap: 20px;
+  position: relative;
+  top: 100px;
+  left: 200px;
+  font-family: "Courier New", Courier, monospace;
+}
+.login_login {
+  display: grid;
+  grid-gap: 30px;
+  justify-content: center;
+  position: relative;
+  left: 550px;
+  top: 100px;
+  height: 300px;
+  width: 300px;
+  background-color: #fff;
+  font-family: "Courier New", Courier, monospace;
+  border-radius: 15px;
+  border-style: outset;
+}
+/* .btn {
+  border-radius: 5;
+  padding-left: 50px;
+} */
+.submit {
+  width: 80px;
+  margin-left: 50px;
+  position: relative;
+  height: 50px;
+  border-radius: 5px;
+  bottom: 20px;
+}
+.about {
+  position: relative;
+  top: 50px;
+  color: #fff;
+}
+.about_me {
+  position: relative;
+  color: #fff;
+  top: 20px;
+  left: 20px;
+}
+.me {
+  position: relative;
+  top: 90px;
+  font-family: "Courier New", Courier, sans-serif;
+  color: white;
+}
+.diploma {
+  position: relative;
+  top: 100px;
+  font-family: "Courier New", Courier, monospace;
+  color: #fff;
+}
+.hobby {
+  position: relative;
+  top: 140px;
+  font-family: "Courier New", Courier, monospace;
+  margin-left: 10px;
+  color: #fff;
+}
+.exp {
+  position: relative;
+  top: 120px;
+  font-family: "Courier New", Courier, monospace;
+  color: #fff;
+}
+.edu {
+  position: relative;
+  top: 110px;
+  font-family: "Courier New", Courier, monospace;
+  color: #fff;
+}
+.contact {
+  display: flex;
+  justify-content: space-around;
+}
+.contact_con {
+  display: grid;
+  grid-gap: 20px;
+  position: relative;
+  top: 200px;
+  justify-content: center;
+}
+label {
+  font-family: "Courier New", Courier, monospace;
+}
+.button {
+  display: flex;
+  justify-content: center;
+}
+.but {
+  background-color: tomato;
+  border: none;
+}
+.grey {
+  background-color: grey;
+}
+.one {
+  background-color: red;
+  height: 50px;
+  border-radius: 3px;
+  display: flex;
+  justify-items: center;
+}
+.two {
+  background-color: red;
+}
+.three {
+  background-color: red;
+}
+.four {
+  background-color: red;
+}
+.seven {
+  background-color: red;
+}
+.eight {
+  background-color: red;
+}
+.mine {
+  background-color: red;
+}
+.zero {
+  background-color: red;
+}
+
+.age {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+.calc {
+  display: grid;
+  grid-gap: 10px;
+}
+
+.plus{
+  display:grid;
+  justify-content:center;
+  position:relative;
+  text-align: center;
+  width: 250px;
+  height:30px;
+  
+}
+  
+border{
+  display:grid;
+  justify-content:center;
+  position:relative;
+  text-align: center;
+  height:200px;
+  width:50px;
+  
+}
+.add{
+  display:grid;
+  justify-content:center;
+  position:relative;
+  text-align: center;
+  
+}
+td{
+  height: 70px;
+  width: 80px;
+  text-align: center;
+  border: 1px solid;
+  border-radius: 3px;
+}
+.column{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  top: 70px;
+}
+.form{
+  position: relative;
+  left: 200px;
+}
+.text{
+  height: 45px;
+  border: 1px solid;
+  width: 332px;
+  border-radius: 3px;
+
+}
+.input{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 71px;
+  border-radius: ;
+}
